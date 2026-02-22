@@ -1,0 +1,281 @@
+/* content alignment */
+
+h1, h2, h3, h4, p {
+    text-align:center;
+}
+
+.aus {
+    text-align:left;
+    max-width:1140px;
+    padding:0px 25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+h1 {
+    margin-bottom:20px;
+}
+
+.search {
+    border-width:1px;
+    border-color:black;
+    border-radius:5px;
+    min-width:200px;
+    max-width:285px;
+    width:60%;
+    min-height:24px;
+    /* display:block;
+    margin-left:auto;
+    margin-right:auto; */
+    margin-bottom:10px;
+}
+
+.search-btn {
+    padding: 7px 7px;
+    font-size: 16px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    background-color:black;
+    border-radius:5px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+
+.sform {
+    text-align:center;
+}
+
+.topmenu, .upevent, .mcontent, .archives, .df_topmenu {
+    text-align:center;
+}
+
+.exlinks {
+    display:flex;
+    column-gap:5px;
+    justify-content:center;
+}
+
+/* content formatting */
+
+h1 {
+    font-family:arial, helvetica, sans-serif;
+    font-size:60px;
+}
+
+.exwbpg {
+    font-size:45px;
+    margin-bottom:0px;
+}
+
+h2 {
+    font-family:arial, helvetica, sans-serif;
+    font-size:30px;
+}
+
+h3 {
+    font-family:arial, helvetica, sans-serif;
+    font-size:15px;
+}
+
+p {
+    font-family:"times new roman", times, serif;
+    font-size:18px;
+    padding:0px 25px;
+    max-width:570px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.news {
+    color:lightgray;
+}
+
+.tb1, .tb2, .tb3, .dftb1, .dftb2, .dftb3, .dftb4, .dftb5, .dftb6{
+    display:inline-block;
+    background-color:green;
+    border-radius:5px;
+    border:none;
+    padding:10px 10px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:16px;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover {
+        transform: scale(1.01);
+        background-color:rgb(25,160,25);
+}
+
+.wn1, .wn2, .wn3, .wn4 {
+    width:80%;
+    min-width:285px;
+    max-width:570px;
+    height:285px;
+    display:inline-block;
+    background-color:green;
+    border-radius:5px;
+    border:none;
+    margin-bottom:5px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:18px;
+    color:white;
+    cursor:pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ue1, .ue2, .ue3, .ue4 {
+    width:285px;
+    height:285px;
+    display:inline-block;
+    background-color:green;
+    border-radius:5px;
+    border:none;
+    margin-bottom:5px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:18px;
+    color:white;
+    cursor:pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mc1, .mc2, .mc3, .aac1, .dfsp1, .dfmc1 {
+    width:80%;
+    min-width:285px;
+    max-width:380px;
+    height:75px;
+    display:inline-block;
+    background-color:green;
+    border-radius:5px;
+    border:none;
+    margin-bottom:5px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size:18px;
+    color:white;
+    cursor:pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wn1 {
+    background-image:url(https://cdn.pixabay.com/photo/2019/09/06/22/17/macaw-4457504_1280.jpg);
+    background-blend-mode:multiply;
+    background-position:center;
+}
+
+.wn2 {
+    background-image:url(https://cdn.shopify.com/s/files/1/2302/2659/files/hiking.jpg);
+    background-blend-mode:multiply;
+    background-position:right;
+}
+
+.ue1 {
+    background-image:url(https://i.pinimg.com/originals/af/7b/c3/af7bc3fe0d3110682d9ee9c6c0bd7218.jpg);
+    background-blend-mode:multiply;
+    background-position:center;
+}
+
+.ue2 {
+    background-image:url(https://www.installation-international.com/wp-content/uploads/2019/01/lawo_mc2_56_press.jpg);
+    background-blend-mode:multiply;
+    background-position:center;
+}
+
+.ue3 {
+    background-image:url(https://3d-innovations.com/wp-content/uploads/2022/06/manufacturing-abroad-scaled.jpg);
+    background-blend-mode:multiply;
+    background-position:center;
+}
+
+.ue4 {
+    background-image:url(https://thumbs.dreamstime.com/b/computer-science-lesson-developing-programming-coding-technologies-webdesign-html-printed-code-close-up-random-comprised-259579361.jpg);
+    background-blend-mode:multiply;
+    background-position:center;
+}
+
+
+.mc1 {
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.0u-dKVP2dI40bqxHiIw5kwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-blend-mode:multiply;
+    background-position:right;
+}
+
+.mc2 {
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.0u-dKVP2dI40bqxHiIw5kwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-blend-mode:multiply;
+    background-position:middle;
+}
+
+.mc3 {
+    background-image:url(https://tse3.mm.bing.net/th/id/OIP.HRAStGM_80lbdw_KUxTUvAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-blend-mode:multiply;
+    background-position:left;
+}
+
+.aac1 {
+    background-image:url(https://wallpaperaccess.com/full/33694.jpg);
+    background-blend-mode:multiply;
+    background-position:left;
+}
+
+/* content styling */
+
+.w_new, .a_us, .archives, .df_designs, .df_mc {
+    background-color: rgb(240, 240, 240);
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+
+.up_events, .m_content, {
+    background-color:white;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+.com_form {
+    width:80%;
+    min-width:285px;
+    max-width:1140px;
+    height:80%;
+    min-height:1140px;
+    max-height:2500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer, section.blackbar {
+    background-color:rgb(30,30,30);
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    
+}
+
+a {
+    color:royalblue;
+}
+
+/*
+.m_content {
+    /* Set the background image */
+    background-image: url(https://wallpapercave.com/wp/fcEaTLf.jpg);
+
+    /* Prevent tiling/repeating */
+    background-repeat: no-repeat;
+
+    /* Make it cover the entire viewport */
+    background-size: cover;
+
+    /* Center the image */
+    background-position: center;
+
+    /* Keep it fixed while scrolling */
+    background-attachment: fixed;
+
+    /* Optional: set a fallback background color */
+    background-color: #000;
+}
+*/
+/* website animations *?
